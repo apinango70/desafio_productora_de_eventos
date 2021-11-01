@@ -1,0 +1,30 @@
+
+ 
+<h1>Mostrar Conciertos</h1>
+
+
+<p>
+  <strong>Grupo:</strong>
+  <%= @concierto.grupo %>
+</p>
+<p>
+  <strong>Lugar:</strong>
+  <%= @concierto.lugar %>
+</p>
+
+<p>
+  <strong>Asistentes:</strong>
+  <%= @concierto.personas_en_concierto %>
+</p>
+
+<p>
+  <strong>Fecha:</strong>
+  <%= @concierto.fecha_ultimo_concierto %>
+</p>
+
+<p>
+  <strong>Duración:</strong>
+  <%= @concierto.duracion %>
+</p>
+
+<%= link_to 'Back', conciertos_path %>

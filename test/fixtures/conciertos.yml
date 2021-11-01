@@ -1,0 +1,17 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  lugar: MyString
+  personas_en_concierto: 1
+  conciertos_en_el_mes: 1
+  fecha_ultimo_concierto: 2021-10-24
+  duracion: MyString
+  grupo: one
+
+two:
+  lugar: MyString
+  personas_en_concierto: 1
+  conciertos_en_el_mes: 1
+  fecha_ultimo_concierto: 2021-10-24
+  duracion: MyString
+  grupo: two
